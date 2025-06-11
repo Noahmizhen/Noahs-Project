@@ -1,0 +1,78 @@
+﻿# -- COVID Economic Shock (2020) : Expanded Nodes & Relationships --
+
+
+def add_covid_economic_shock(kg):
+    # ───────────────────────────
+    # 1. Core + New Nodes
+    # ───────────────────────────
+    covid_nodes = [
+        # ── Original 10 ──
+        ("COVID Economic Shock (2020)", "Global economic crisis triggered by the COVID-19 pandemic, causing supply-chain disruptions, lockdowns, and demand collapse.", "Historical Layer"),
+        ("Global Lockdowns", "Nationwide quarantines and travel bans imposed to contain the virus.", "Market Condition Layer"),
+        ("Supply Chain Disruptions", "Delays and shortages caused by halted manufacturing and transport.", "Market Condition Layer"),
+        ("Unemployment Spike (2020)", "Mass layoffs and furloughs resulting from business shutdowns.", "Market Condition Layer"),
+        ("Monetary Easing Blitz", "Central banks slashed rates and launched liquidity programs.", "Systemic Reform Layer"),
+        ("Fiscal Stimulus Packages", "Massive government spending to support households and businesses.", "Systemic Reform Layer"),
+        ("Remote Work Acceleration", "Rapid shift to digital-first work environments.", "Cognitive-Agentic Layer"),
+        ("Stock Market Crash (March 2020)", "Rapid global equity sell-off due to pandemic uncertainty.", "Historical Layer"),
+        ("Recovery K-Shape", "Divergent rebound where tech and capital markets surged while labor recovery lagged.", "Feedback Layer"),
+        ("Vaccine Development Race", "Global biotech effort to develop effective COVID-19 vaccines.", "Simulation Layer"),
+
+
+        # ── NEW 10 ──
+        ("Oil Price Crash (April 2020)", "Historic drop in oil demand drove WTI futures below zero for the first time.", "Historical Layer"),
+        ("Federal Reserve QE Infinity", "Unlimited quantitative-easing program to stabilize credit and MBS markets.", "Systemic Reform Layer"),
+        ("ECB PEPP", "ECB's Pandemic Emergency Purchase Programme worth €1.85 trillion.", "Systemic Reform Layer"),
+        ("Paycheck Protection Program (PPP)", "U.S. forgivable loans aimed at keeping small-business payrolls intact.", "Systemic Reform Layer"),
+        ("E-Commerce Surge", "Consumer spending pivoted sharply online, boosting digital retail revenues.", "Cognitive-Agentic Layer"),
+        ("Global Chip Shortage (2020-21)", "Semiconductor supply crunch disrupting autos and electronics production.", "Market Condition Layer"),
+        ("Inflation Spike (2021)", "Post-pandemic demand + supply bottlenecks pushed CPI to multi-decade highs.", "Feedback Layer"),
+        ("Labor Shortage Trend", "Record job openings and quits as economies reopened.", "Market Condition Layer"),
+        ("Telehealth Adoption Boom", "Regulatory waivers and consumer uptake drove telemedicine mainstream.", "Cognitive-Agentic Layer"),
+        ("mRNA Vaccine Breakthrough", "Successful deployment of Pfizer-BioNTech & Moderna vaccines in record time.", "Simulation Layer")
+    ]
+
+
+    for name, desc, layer in covid_nodes:
+        kg.create_node("MarketCrisis", {"name": name, "description": desc, "layer": layer})
+        kg.create_relationship(name, layer, "BELONGS_TO")
+
+
+    # ───────────────────────────
+    # 2. Core + New Relationships
+    # ───────────────────────────
+    covid_relationships = [
+        # ── Original ──
+        ("Global Lockdowns", "COVID Economic Shock (2020)", "TRIGGERED_BY"),
+        ("Supply Chain Disruptions", "Global Lockdowns", "RESULTED_FROM"),
+        ("Unemployment Spike (2020)", "Global Lockdowns", "RESULTED_FROM"),
+        ("Stock Market Crash (March 2020)", "COVID Economic Shock (2020)", "IMMEDIATE_RESULT"),
+        ("Monetary Easing Blitz", "Stock Market Crash (March 2020)", "RESPONSE_TO"),
+        ("Fiscal Stimulus Packages", "Unemployment Spike (2020)", "RESPONSE_TO"),
+        ("Remote Work Acceleration", "COVID Economic Shock (2020)", "BEHAVIORAL_SHIFT"),
+        ("Recovery K-Shape", "Fiscal Stimulus Packages", "FOLLOWED_BY"),
+        ("Vaccine Development Race", "COVID Economic Shock (2020)", "SIMULATION_RESPONSE"),
+
+
+        # ── New ──
+        ("Oil Price Crash (April 2020)", "Global Lockdowns", "RESULTED_FROM"),
+        ("Federal Reserve QE Infinity", "Stock Market Crash (March 2020)", "RESPONSE_TO"),
+        ("ECB PEPP", "Stock Market Crash (March 2020)", "RESPONSE_TO"),
+        ("Paycheck Protection Program (PPP)", "Unemployment Spike (2020)", "RESPONSE_TO"),
+        ("Global Chip Shortage (2020-21)", "Supply Chain Disruptions", "RESULTED_FROM"),
+        ("E-Commerce Surge", "Remote Work Acceleration", "ASSOCIATED_WITH"),
+        ("Inflation Spike (2021)", "Monetary Easing Blitz", "FOLLOWED_BY"),
+        ("Labor Shortage Trend", "Remote Work Acceleration", "ASSOCIATED_WITH"),
+        ("Telehealth Adoption Boom", "Global Lockdowns", "BEHAVIORAL_SHIFT"),
+        ("mRNA Vaccine Breakthrough", "Vaccine Development Race", "RESULT_OF")
+    ]
+
+
+    for source, target, rel in covid_relationships:
+        kg.create_relationship(source, target, rel)
+
+
+# Example usage:
+# kg = FinancialKnowledgeGraph("bolt://localhost:7687", "neo4j", "password")
+# add_covid_economic_shock(kg)
+# kg.close()
