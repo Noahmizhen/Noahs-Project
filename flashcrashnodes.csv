@@ -1,0 +1,13 @@
+node_id,node_type,description,layer
+"Flash Crash (May 6, 2010)","MarketCrisis","Sudden, extreme market plunge and recovery within minutes, driven by algorithmic trading and microstructure instability.","Historical Layer"
+"High-Frequency Trading (HFT)","MarketCrisis","Algorithmic trading executing large volumes in milliseconds, contributing to volatility during stress.","Cognitive-Agentic Layer"
+"Liquidity Vacuum Event","MarketCrisis","Disappearance of market depth caused by HFT withdrawal during stress, leading to cascading sell orders.","Market Condition Layer"
+"Stub Quote Phenomenon","MarketCrisis","Ultra-low bids placed far from fair value that distorted price discovery in fragmented markets.","Systemic Reform Layer"
+"Reg NMS Fragmentation","MarketCrisis","U.S. regulation enabling multiple trading venues, which contributed to information latency and arbitrage complexity.","Systemic Reform Layer"
+"Event-Driven Feedback Loops","MarketCrisis","Self-reinforcing cycles where price drops trigger algorithmic sell-offs, deepening volatility.","Feedback Layer"
+"Market Circuit Breaker Enhancement (Post-2010)","MarketCrisis","Reforms introduced to pause trading during rapid price swings to prevent future flash events.","Systemic Reform Layer"
+"Historical Layer","Layer",,
+"Cognitive-Agentic Layer","Layer",,
+"Market Condition Layer","Layer",,
+"Systemic Reform Layer","Layer",,
+"Feedback Layer","Layer",,

@@ -1,0 +1,20 @@
+source,target,relationship,source_sentence,source_doc,start_date,end_date,confidence
+brics_bloc_formation_2009,china_belt_and_road_initiative_2013,FOLLOWED_BY,"China's 2013 Belt and Road Initiative follows the strategic cooperation first formalised by the BRICS bloc in 2009.",BRICS fiscal-g20 response,2013-01-01,,1.0
+china_belt_and_road_initiative_2013,de-dollarization_initiatives_2020s,ENABLES,"The infrastructure reach of the BRI made it feasible for BRICS members to settle trade in local currencies during the early-2020s de-dollarisation drive.",BRICS fiscal-g20 response,2020-01-01,,1.0
+brics_bloc_formation_2009,brics_currency_reserve_pool,SUPPORTS,"The political cohesion of the 2009 BRICS formation laid the groundwork for a shared currency reserve pool.",BRICS fiscal-g20 response,unknown,,0.9
+russia_sovereign_wealth_accumulation,brics_currency_reserve_pool,FUNDS,"Accumulated Russian sovereign reserves supplied part of the initial capital of the BRICS Currency Reserve Pool.",BRICS fiscal-g20 response,unknown,,1.0
+india_fiscal_consolidation,brics_currency_reserve_pool,STABILISES,"India's improving fiscal balance sheet helped stabilise the reserve pool's overall credit quality.",BRICS fiscal-g20 response,unknown,,0.9
+south_africa_debt_struggles,brics_currency_reserve_pool,EXPOSES_RISK_TO,"South Africa's chronic debt pressures add tail-risk to the efficacy of the shared reserve pool.",BRICS fiscal-g20 response,unknown,,0.9
+de-dollarization_initiatives_2020s,brics_expansion_2024,MOTIVATES,"The push to transact outside the USD strengthened the case for enlarging the BRICS grouping in 2024.",BRICS fiscal-g20 response,2024-01-01,,1.0
+modern_deficit_normalization,de-dollarization_initiatives_2020s,CONTRASTS_WITH,"Modern deficit-normalisation theory contrasts with the hard-currency orientation of de-dollarisation efforts.",BRICS fiscal-g20 response,unknown,,0.8
+historical_tariff_shock_patterns,reasoningpath_002,INFORMS,"Historical tariff-shock precedents inform the causal reasoning path captured in RP-002.",BRICS fiscal-g20 response,unknown,,1.0
+trade_policy_risk,reasoningpath_002,TRIGGERS,"Elevated trade-policy risk scores trigger activation of ReasoningPath_002.",BRICS fiscal-g20 response,unknown,,0.8
+reasoningpath_002,portfolio_de-risking_mechanism,DERIVES,"The reasoning path derives a portfolio de-risking mechanism that reallocates into bonds under macro stress.",BRICS fiscal-g20 response,unknown,,1.0
+reasoningpath_002,simulation_tariffshock_2025,APPLIES_TO,"RP-002 is applied to the TariffShock-2025 simulation scenario.",BRICS fiscal-g20 response,2025-01-01,,0.9
+reasoningpath_002,macroagent,INITIATES,"RP-002 triggers MacroAgent to begin capital-allocation planning.",BRICS fiscal-g20 response,unknown,,0.8
+reasoningpath_002,ai_investment_optimizer,EXECUTES_WITH,"The AI Investment Optimizer executes the allocation decisions suggested by RP-002.",BRICS fiscal-g20 response,unknown,,0.8
+fiscal_stress_signal_aggregator,reasoningpath_003,TRIGGERS,"Real-time fiscal-stress signals trigger ReasoningPath_003.",BRICS fiscal-g20 response,unknown,,1.0
+reasoningpath_003,sovereign_liquidity_optimization,DERIVES,"RP-003 derives a sovereign-liquidity optimisation strategy.",BRICS fiscal-g20 response,unknown,,1.0
+reasoningpath_003,macro_sovereign_fund_agent,EXECUTES_WITH,"The Macro Sovereign Fund Agent executes actions based on RP-003 outputs.",BRICS fiscal-g20 response,unknown,,1.0
+reasoningpath_003,brics_currency_reserve_pool,APPLIES_TO,"RP-003 output is applied to management of the BRICS Currency Reserve Pool.",BRICS fiscal-g20 response,unknown,,0.9
+reasoningpath_003,ai_investment_optimizer,INTEGRATES_WITH,"RP-003 integrates live signals into the AI Investment Optimizer engine.",BRICS fiscal-g20 response,unknown,,0.9

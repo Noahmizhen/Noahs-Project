@@ -1,0 +1,20 @@
+source,target,relationship,source_sentence,source_doc,start_date,end_date,confidence
+greek_first_bailout_2010,european_sovereign_debt_crisis_2010_2012,PART_OF,"The €110 bn Greek rescue package formed part of the wider 2010-12 European sovereign-debt crisis.",IMF Country Report 10/110,2010-05-02,,1.0
+european_sovereign_debt_crisis_2010_2012,ecb_ltro_2011_2012,TRIGGERS,"Escalating euro-area funding stress during the sovereign-debt crisis triggered the ECB’s 3-year LTROs in 2011-12.",ECB Press Release 08-Dec-2011,2011-12-21,,1.0
+european_sovereign_debt_crisis_2010_2012,ecb_omt_2012,TRIGGERS,"Persistent crisis pressures led the ECB to unveil its OMT backstop on 6 Sep 2012.",ECB Press Release 06-Sep-2012,2012-09-06,,1.0
+ecb_ltro_2011_2012,european_sovereign_debt_crisis_2010_2012,MITIGATES,"The €1 tn LTRO injections mitigated acute bank-funding stress during the euro crisis.",ECB Annual Report 2012,2011-12-21,,0.9
+ecb_omt_2012,european_sovereign_debt_crisis_2010_2012,RESOLVES,"Draghi’s OMT commitment effectively resolved breakup fears by mid-2012.",ECB Press Release 06-Sep-2012,2012-09-06,,0.9
+dodd_frank_act_2010,basel_iii_framework_2010,COMPLEMENTS,"The Dodd-Frank Act complements Basel III by reinforcing capital and liquidity standards in the U.S.",Public Law 111-203,2010-07-21,,1.0
+flash_crash_2010,sp_us_downgrade_2011,PRECEDES,"The May 2010 Flash Crash preceded S&P’s August 2011 downgrade of U.S. Treasuries.",CFTC-SEC Report 30-Sep-2010,2010-05-06,,0.8
+covid19_market_crash_2020,cares_act_2020,TRIGGERS,"The pandemic market collapse prompted Congress to pass the US$2.2 tn CARES Act.",Public Law 116-136,2020-03-27,,1.0
+covid19_market_crash_2020,fed_unlimited_qe_2020,TRIGGERS,"March 2020 market dysfunction triggered the Fed’s ‘unlimited QE’ pledge.",FOMC Statement 23-Mar-2020,2020-03-23,,1.0
+covid19_market_crash_2020,qe_pepp_2020,TRIGGERS,"The crash also led the ECB to launch its PEPP bond-buying programme.",ECB Press Release 18-Mar-2020,2020-03-18,,1.0
+cares_act_2020,covid19_market_crash_2020,MITIGATES,"Fiscal stimulus under the CARES Act helped mitigate the economic fallout from the COVID-19 crash.",Public Law 116-136,2020-03-27,,0.9
+fed_unlimited_qe_2020,covid19_market_crash_2020,MITIGATES,"The Fed’s unlimited asset purchases restored liquidity and mitigated market stress.",FOMC Statement 23-Mar-2020,2020-03-23,,0.9
+qe_pepp_2020,covid19_market_crash_2020,MITIGATES,"The ECB’s PEPP aimed to mitigate pandemic-induced fragmentation.",ECB Press Release 18-Mar-2020,2020-03-18,,0.9
+gamestop_short_squeeze_2021,archegos_collapse_2021,PRECEDES,"The January 2021 meme-stock squeeze preceded the March collapse of Archegos.",SEC Staff Report Oct 2021,2021-01-27,,0.8
+archegos_collapse_2021,credit_suisse_ubs_takeover_2023,WEAKENS,"Archegos-related losses eroded Credit Suisse’s capital and contributed to its eventual forced sale to UBS.",Swiss Federal Council 19-Mar-2023,2021-03-26,,0.8
+silicon_valley_bank_failure_2023,bank_term_funding_program_2023,TRIGGERS,"SVB’s sudden failure triggered the Fed’s Bank Term Funding Program on 12 Mar 2023.",Federal Reserve FAQ 12-Mar-2023,2023-03-12,,1.0
+bank_term_funding_program_2023,silicon_valley_bank_failure_2023,MITIGATES,"The BTFP aims to mitigate liquidity stress revealed by the SVB failure.",Federal Reserve FAQ 12-Mar-2023,2023-03-12,,0.9
+silicon_valley_bank_failure_2023,credit_suisse_ubs_takeover_2023,PRECEDES,"U.S. regional-bank turmoil preceded the Swiss-brokered Credit Suisse rescue days later.",Swiss Federal Council 19-Mar-2023,2023-03-19,,0.8
+brexit_referendum_2016,uk_ldia_gilt_crisis_2022,SETS_STAGE_FOR,"Post-Brexit gilt-market shifts set the stage for the 2022 U.K. LDI stress episode.",BoE FSR Dec 2022,2016-06-23,,0.8

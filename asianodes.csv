@@ -1,0 +1,16 @@
+node_id,node_type,description,layer
+"Asian Financial Crisis (1997)","MarketCrisis","A severe currency and banking crisis that spread across East and Southeast Asia, triggered by currency devaluations and capital flight.","Historical Layer"
+"Thai Baht Collapse","MarketCrisis","Triggering event where Thailand floated the baht, leading to a steep devaluation.","Market Condition Layer"
+"Currency Peg Breakdown","MarketCrisis","Collapse of fixed exchange rate systems under speculative attack.","Market Condition Layer"
+"Capital Flight","MarketCrisis","Massive withdrawal of foreign investment due to loss of confidence.","Market Condition Layer"
+"IMF Structural Adjustment Programs","MarketCrisis","Loan conditions imposed by the IMF focused on austerity and liberalization.","Systemic Reform Layer"
+"Moral Hazard Critique","MarketCrisis","Concerns that IMF bailouts incentivized reckless behavior in financial markets.","Feedback Layer"
+"Contagion Across Asia","MarketCrisis","Crisis spread to South Korea, Indonesia, Malaysia, and beyond.","Predictive Layer"
+"Social Unrest in Indonesia","MarketCrisis","Public anger over austerity and inflation led to protests and regime change.","Cognitive-Agentic Layer"
+"Crony Capitalism Exposure","MarketCrisis","Weak governance and close ties between business and government were revealed.","Cognitive-Agentic Layer"
+"Historical Layer","Layer",,
+"Market Condition Layer","Layer",,
+"Systemic Reform Layer","Layer",,
+"Feedback Layer","Layer",,
+"Predictive Layer","Layer",,
+"Cognitive-Agentic Layer","Layer",,

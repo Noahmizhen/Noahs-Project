@@ -1,0 +1,7 @@
+name,description,layer,:LABEL
+OPEC Oil Embargo (1973),Arab-led oil embargo against U.S. and allies, triggering global energy crisis.,Market Condition Layer,MarketCrisis
+Petrodollar Agreement (1974),U.S.-Saudi pact requiring oil sales to be priced in U.S. dollars, reinforcing USD dominance.,Systemic Reform Layer,MarketCrisis
+U.S. Dollar Reserve Reinforcement,Outcome of petrodollar system where global demand for dollars surged due to energy trade.,Feedback Layer,MarketCrisis
+Emergence of Sovereign Wealth Funds,Oil-exporting nations invested surpluses into U.S. and global markets.,Simulation Layer,MarketCrisis
+Oil Shock Inflation (1970s),Massive price increases and stagflation following oil supply disruptions.,Market Condition Layer,MarketCrisis
+Energy Geopolitics Era,Decades of global policy shaped around oil security and petrodollar system.,Predictive Layer,MarketCrisis

@@ -1,0 +1,21 @@
+source,target,relationship,source_sentence,source_doc,start_date,end_date,confidence
+jay_cooke_and_co_collapse,panic_of_1873,TRIGGERS,"The collapse of Jay Cooke & Co. triggered the Panic of 1873.",Panic of 1873,1873-09-18,,1.0
+overbuilt_railroad_bubble_1870s,jay_cooke_and_co_collapse,EXPOSES,"Speculative excess in railroads exposed structural weaknesses that led to the failure of Jay Cooke & Co.",Panic of 1873,1873-09-18,,0.9
+panic_of_1873,long_depression_1873_1896,INITIATES,"The Panic of 1873 initiated the prolonged global downturn known as the Long Depression.",Panic of 1873,1873-10-01,,1.0
+coinage_act_of_1873,panic_of_1873,WORSENS,"By contracting liquidity, the Coinage Act of 1873 worsened the unfolding panic.",Panic of 1873,1873-02-12,,1.0
+bimetallism_debate,coinage_act_of_1873,INFLUENCES,"The long-running bimetallism debate influenced the eventual drafting of the Coinage Act of 1873.",Panic of 1873,1873-02-12,,1.0
+long_depression_1873_1896,global_deflation_spiral,CHARACTERIZED_BY,"The Long Depression was characterised by a global deflation spiral.",Panic of 1873,1873-01-01,1896-12-31,1.0
+global_deflation_spiral,rise_of_protectionism_1880s,PROMPTS,"Persistent deflation prompted a wave of protectionist tariffs in the 1880s.",Panic of 1873,1880-01-01,1889-12-31,1.0
+vienna_stock_exchange_crash_1873,panic_of_1873,TRIGGERS,"The Vienna Stock Exchange crash of May 1873 triggered financial contagion culminating in the U.S. panic.",Panic of 1873 (Wikipedia),1873-05-09,,1.0
+us_railroad_construction_boom_1866_1873,overbuilt_railroad_bubble_1870s,LEADS_TO,"Rapid post-war railroad construction led to an overbuilt railroad bubble in the 1870s.",PBS ‘Panic of 1873’,1866-01-01,1873-09-18,1.0
+overbuilt_railroad_bubble_1870s,panic_of_1873,CONTRIBUTES_TO,"The collapse of the railroad bubble contributed materially to the Panic of 1873.",Panic of 1873,1873-09-18,,0.9
+german_gold_standard_adoption_1871,coinage_act_of_1873,INFLUENCES,"Germany’s 1871–73 shift to gold influenced U.S. legislators heading toward the Coinage Act of 1873.",IMF WP 2019-032,1873-02-12,,0.9
+bland_allison_act_1878,coinage_act_of_1873,PARTIALLY_REVERSES,"The Bland–Allison Act of 1878 partially reversed the silver demonetisation of 1873.",Bland-Allison Act (Wikipedia),1878-02-28,,1.0
+specie_payment_resumption_act_1875,global_deflation_spiral,CONTRIBUTES_TO,"The Resumption Act tightened money supply, fuelling the broader deflation spiral.",Specie Payment Resumption Act (Wikipedia),1875-01-14,,0.9
+long_depression_1873_1896,great_railroad_strike_1877,TRIGGERS,"Wage cuts during the Long Depression triggered the Great Railroad Strike of 1877.",History.com article,1877-07-14,1877-09-04,1.0
+global_deflation_spiral,british_agricultural_depression_1873_1896,EXACERBATES,"Global deflation exacerbated Britain’s agricultural depression of 1873-96.",Great Depression of British Agriculture (Wikipedia),1873-01-01,1896-12-31,0.9
+long_depression_1873_1896,british_agricultural_depression_1873_1896,INCLUDES,"The British Agricultural Depression unfolded within the wider Long Depression.",Great Depression of British Agriculture (Wikipedia),1873-01-01,1896-12-31,0.9
+greenback_movement_1868_1888,specie_payment_resumption_act_1875,OPPOSES,"The Greenback movement opposed the Resumption Act’s return to gold convertibility.",Britannica Greenback Movement,1875-01-14,,0.9
+greenback_movement_1868_1888,bland_allison_act_1878,INFLUENCES,"Lobbying by Greenback activists influenced passage of the Bland–Allison Act.",Britannica Greenback Movement,1878-02-28,,0.8
+german_gold_standard_adoption_1871,global_deflation_spiral,CONTRIBUTES_TO,"Germany’s gold hoarding contributed to global deflation by sidelining silver.",IMF WP 2019-032,1873-01-01,,0.8
+specie_payment_resumption_act_1875,bland_allison_act_1878,PAVES_WAY_FOR,"By contracting currency, the Resumption Act paved the way for calls to remonetise silver, leading to Bland–Allison.",Specie Payment Resumption Act (Wikipedia),1878-02-28,,0.8

@@ -1,0 +1,31 @@
+source,target,relationship,source_sentence,source_doc,strength,lag_years,confidence
+asian_financial_crisis_1997,global_financial_crisis_2008,PRECEDED_BY_CONTAGION_PATTERNS,"Contagion patterns observed in 1997 Asia foreshadowed those of the 2008 global crisis.",Multi-Crisis Linkage Model,0.85,11,0.92
+global_financial_crisis_2008,asian_financial_crisis_1997,INVERSE_PRECEDED_BY_CONTAGION_PATTERNS,"Reverse linkage: analysis traces systemic contagion back from 2008 to the 1997 Asian event.",Multi-Crisis Linkage Model,0.85,11,0.92
+global_financial_crisis_2008,covid_economic_shock_2020,EXPOSED_SYSTEMIC_VULNERABILITIES,"The 2008 crisis exposed vulnerabilities later stressed by the 2020 COVID shock.",Multi-Crisis Linkage Model,0.78,12,0.88
+covid_economic_shock_2020,global_financial_crisis_2008,INVERSE_EXPOSED_SYSTEMIC_VULNERABILITIES,"Inverse link: COVID-19 stress tests confirmed fragilities revealed in 2008.",Multi-Crisis Linkage Model,0.78,12,0.88
+covid_economic_shock_2020,dot_plot_decade_2020s,TRANSFORMED_POLICY_REGIME,"Pandemic shock transformed the policy regime that defines the 2020s dot-plot era.",Multi-Crisis Linkage Model,0.91,2,0.95
+dot_plot_decade_2020s,covid_economic_shock_2020,INVERSE_TRANSFORMED_POLICY_REGIME,"Inverse link: the dot-plot regime stems from COVID-19 policy shifts.",Multi-Crisis Linkage Model,0.91,2,0.95
+nixon_shock_1971,asian_financial_crisis_1997,INFLUENCED_CURRENCY_REGIMES,"Floating-rate environment after the 1971 Nixon Shock set the stage for 1997 Asian currency turmoil.",Multi-Crisis Linkage Model,0.76,26,0.87
+asian_financial_crisis_1997,nixon_shock_1971,INVERSE_INFLUENCED_CURRENCY_REGIMES,"Inverse link: 1997 crisis outcomes highlight long-run impact of the 1971 dollar float.",Multi-Crisis Linkage Model,0.76,26,0.87
+asian_financial_crisis_1997,eurozone_structural_flaws,HIGHLIGHTED_FIXED_EXCHANGE_RISK,"Asian crisis underscored risks later evident in eurozone’s fixed-rate design.",Multi-Crisis Linkage Model,0.80,13,0.86
+eurozone_structural_flaws,asian_financial_crisis_1997,INVERSE_HIGHLIGHTED_FIXED_EXCHANGE_RISK,"Fixed-exchange flaws mirror lessons from the 1997 Asian turmoil.",Multi-Crisis Linkage Model,0.80,13,0.86
+imf_structural_adjustment_programs,imf_eu_bailouts,POLICY_CONTINUITY,"EU-IMF bailouts carried forward the conditionality model of earlier IMF adjustment programmes.",Multi-Crisis Linkage Model,0.88,13,0.90
+imf_eu_bailouts,imf_structural_adjustment_programs,INVERSE_POLICY_CONTINUITY,"Inverse link: euro-area bailouts reflect earlier SAP design.",Multi-Crisis Linkage Model,0.88,13,0.90
+troubled_asset_relief_program_tarp,imf_eu_bailouts,SHARED_POLICY_ARCHETYPE,"TARP and IMF-EU bailouts share a common policy archetype for systemic rescues.",Multi-Crisis Linkage Model,0.83,2,0.89
+imf_eu_bailouts,troubled_asset_relief_program_tarp,INVERSE_SHARED_POLICY_ARCHETYPE,"Inverse link: euro-area bailouts echo the U.S. TARP model.",Multi-Crisis Linkage Model,0.83,2,0.89
+imf_eu_bailouts,dot_plot_decade_2020s,INFLUENCED_PERCEPTION_OF_CENTRAL_BANKS,"Bailout experiences shaped public perception of central-bank activism in the 2020s.",Multi-Crisis Linkage Model,0.79,10,0.84
+dot_plot_decade_2020s,imf_eu_bailouts,INVERSE_INFLUENCED_PERCEPTION_OF_CENTRAL_BANKS,"Inverse link: the 2020s view of central banks traces back to earlier IMF-EU rescues.",Multi-Crisis Linkage Model,0.79,10,0.84
+efficient_market_hypothesis_critique,behavioral_panic_response,REINFORCED_BY,"Critiques of EMH are reinforced by observed behavioral panic responses.",Multi-Crisis Linkage Model,0.72,17,0.81
+behavioral_panic_response,efficient_market_hypothesis_critique,INVERSE_REINFORCED_BY,"Inverse link: panic episodes bolster EMH critiques.",Multi-Crisis Linkage Model,0.72,17,0.81
+behavioral_finance_insights,cognitive_agentic_layer,UNDERPINNED_LAYER,"Behavioral-finance insights underpin the cognitive-agentic analytical layer.",Multi-Crisis Linkage Model,0.90,0,0.94
+cognitive_agentic_layer,behavioral_finance_insights,INVERSE_UNDERPINNED_LAYER,"Inverse link: cognitive-agentic framework draws on behavioral-finance findings.",Multi-Crisis Linkage Model,0.90,0,0.94
+soft_landing_debate,nixon_shock_1971,PREVIOUSLY_ECHOED,"The soft-landing debate echoes themes raised around the Nixon Shock era.",Multi-Crisis Linkage Model,0.67,50,0.75
+nixon_shock_1971,soft_landing_debate,INVERSE_PREVIOUSLY_ECHOED,"Inverse link: 1971 debates presage modern soft-landing discussions.",Multi-Crisis Linkage Model,0.67,50,0.75
+dot_com_bubble_1995_2000,global_financial_crisis_2008,SHARED_BUBBLE_DYNAMICS,"Speculative dynamics in the dot-com bubble presaged leverage patterns in 2008.",Multi-Crisis Linkage Model,0.82,8,0.88
+global_financial_crisis_2008,dot_com_bubble_1995_2000,INVERSE_SHARED_BUBBLE_DYNAMICS,"Inverse link: 2008 crisis dynamics mirror late-1990s tech bubble excesses.",Multi-Crisis Linkage Model,0.82,8,0.88
+asian_financial_crisis_1997,european_sovereign_debt_crisis_2010_2012,SHARED_CONTAGION_DYNAMICS,"Both crises displayed rapid cross-border contagion through confidence and funding channels.",Multi-Crisis Linkage Model,0.77,13,0.85
+european_sovereign_debt_crisis_2010_2012,asian_financial_crisis_1997,INVERSE_SHARED_CONTAGION_DYNAMICS,"Inverse link: euro-area contagion dynamics recall 1997 Asian patterns.",Multi-Crisis Linkage Model,0.77,13,0.85
+global_financial_crisis_2008,european_sovereign_debt_crisis_2010_2012,DIRECT_CAUSAL_LINEAGE,"Post-2008 bank-sovereign loops fed directly into the euro-area debt crisis.",Multi-Crisis Linkage Model,0.89,2,0.93
+european_sovereign_debt_crisis_2010_2012,global_financial_crisis_2008,INVERSE_DIRECT_CAUSAL_LINEAGE,"Inverse link: euro-crisis roots traced to 2008 global turmoil.",Multi-Crisis Linkage Model,0.89,2,0.93
+nixon_shock_1971,global_financial_crisis_2008,ROOTED_MONETARY_REGIME_EVOLUTION,"Evolving post-1971 monetary regime set foundations for the 2008 crisis.",Multi-Crisis Linkage Model,0.84,37,0.91
+global_financial_crisis_2008,nixon_shock_1971,INVERSE_ROOTED_MONETARY_REGIME_EVOLUTION,"Inverse link: 2008 outcomes highlight the long trajectory since 1971 monetary changes.",Multi-Crisis Linkage Model,0.84,37,0.91

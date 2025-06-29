@@ -1,0 +1,9 @@
+source,target,relationship,source_sentence,source_doc,start_date,end_date,confidence
+taper_tantrum_2013,fed_rate_hike_cycle_2022,PRECEDES,"The 2013 taper tantrum foreshadowed markets’ sensitivity to the 2022 Fed tightening cycle.",Fed Testimony & FOMC Statements,2013-05-22,,0.90
+us_china_trade_war_2018,us_inflation_spike_2022,CONTRIBUTES_TO,"Tariffs on US$200 bn of imports added to goods-price inflation visible in 2022 CPI data.",USTR & BLS releases,2018-09-24,,0.88
+repo_market_spike_2019,fed_unlimited_qe_2020,TRIGGERS,"September-2019 repo stress prompted the Fed’s balance-sheet expansion that culminated in ‘unlimited QE’.",Fed FEDS Note & FOMC 23-Mar-20,2019-09-17,,0.90
+russian_invasion_ukraine_2022,us_inflation_spike_2022,AMPLIFIES,"War-driven energy and grain shocks amplified U.S. inflation pressures by mid-2022.",IMF & BLS releases,2022-02-24,,0.92
+us_inflation_spike_2022,fed_rate_hike_cycle_2022,TRIGGERS,"June-2022 CPI peak triggered the Fed’s most aggressive rate-hike path since the 1980s.",BLS & FOMC sources,2022-06-30,,0.95
+us_inflation_spike_2022,ecb_ends_negative_rates_2022,TRIGGERS,"Persistent global inflation led the ECB to exit negative rates in July 2022.",BLS & ECB press,2022-06-30,,0.92
+opec_production_cut_oct_2022,us_inflation_spike_2022,EXACERBATES,"The 2 mb/d OPEC⁺ cut risked prolonging energy-price inflation already evident in 2022.",Reuters & BLS sources,2022-10-05,,0.88
+fed_rate_hike_cycle_2022,boj_ends_negative_rates_2024,INFLUENCES,"Global tightening momentum influenced the BOJ’s 2024 exit from negative rates.",FOMC & BOJ statements,2022-03-16,,0.85

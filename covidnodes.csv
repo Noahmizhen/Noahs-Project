@@ -1,0 +1,27 @@
+node_id,node_type,description,layer
+"COVID Economic Shock (2020)","MarketCrisis","Global economic crisis triggered by the COVID-19 pandemic, causing supply-chain disruptions, lockdowns, and demand collapse.","Historical Layer"
+"Global Lockdowns","MarketCrisis","Nationwide quarantines and travel bans imposed to contain the virus.","Market Condition Layer"
+"Supply Chain Disruptions","MarketCrisis","Delays and shortages caused by halted manufacturing and transport.","Market Condition Layer"
+"Unemployment Spike (2020)","MarketCrisis","Mass layoffs and furloughs resulting from business shutdowns.","Market Condition Layer"
+"Monetary Easing Blitz","MarketCrisis","Central banks slashed rates and launched liquidity programs.","Systemic Reform Layer"
+"Fiscal Stimulus Packages","MarketCrisis","Massive government spending to support households and businesses.","Systemic Reform Layer"
+"Remote Work Acceleration","MarketCrisis","Rapid shift to digital-first work environments.","Cognitive-Agentic Layer"
+"Stock Market Crash (March 2020)","MarketCrisis","Rapid global equity sell-off due to pandemic uncertainty.","Historical Layer"
+"Recovery K-Shape","MarketCrisis","Divergent rebound where tech and capital markets surged while labor recovery lagged.","Feedback Layer"
+"Vaccine Development Race","MarketCrisis","Global biotech effort to develop effective COVID-19 vaccines.","Simulation Layer"
+"Oil Price Crash (April 2020)","MarketCrisis","Historic drop in oil demand drove WTI futures below zero for the first time.","Historical Layer"
+"Federal Reserve QE Infinity","MarketCrisis","Unlimited quantitative-easing program to stabilize credit and MBS markets.","Systemic Reform Layer"
+"ECB PEPP","MarketCrisis","ECB's Pandemic Emergency Purchase Programme worth €1.85 trillion.","Systemic Reform Layer"
+"Paycheck Protection Program (PPP)","MarketCrisis","U.S. forgivable loans aimed at keeping small-business payrolls intact.","Systemic Reform Layer"
+"E-Commerce Surge","MarketCrisis","Consumer spending pivoted sharply online, boosting digital retail revenues.","Cognitive-Agentic Layer"
+"Global Chip Shortage (2020-21)","MarketCrisis","Semiconductor supply crunch disrupting autos and electronics production.","Market Condition Layer"
+"Inflation Spike (2021)","MarketCrisis","Post-pandemic demand + supply bottlenecks pushed CPI to multi-decade highs.","Feedback Layer"
+"Labor Shortage Trend","MarketCrisis","Record job openings and quits as economies reopened.","Market Condition Layer"
+"Telehealth Adoption Boom","MarketCrisis","Regulatory waivers and consumer uptake drove telemedicine mainstream.","Cognitive-Agentic Layer"
+"mRNA Vaccine Breakthrough","MarketCrisis","Successful deployment of Pfizer-BioNTech & Moderna vaccines in record time.","Simulation Layer"
+"Historical Layer","Layer",,
+"Market Condition Layer","Layer",,
+"Systemic Reform Layer","Layer",,
+"Cognitive-Agentic Layer","Layer",,
+"Feedback Layer","Layer",,
+"Simulation Layer","Layer",,

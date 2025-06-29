@@ -1,0 +1,26 @@
+source,target,relationship,source_sentence,source_doc,confidence
+tariff_of_abominations_1828,compromise_tariff_of_1833,MITIGATED_BY,"The Compromise Tariff of 1833 was enacted to mitigate the crisis caused by the Tariff of Abominations.",major US tariff acts 20th century,1.0
+morrill_tariff_1861,underwood_tariff_1913,REVERSED_BY,"The Underwood Tariff of 1913 reversed the high protective rates of the Morrill Tariff era.",major US tariff acts 20th century,1.0
+tariff_of_abominations_1828,protectionism,EMBODIED_POLICY_OF,"The 1828 Tariff of Abominations was a high-water mark for US protectionist policy in the early 19th century.",history of US protectionism,1.0
+tariff_of_abominations_1828,sectional_conflict,INTENSIFIED,"The tariff intensified sectional conflict by benefiting Northern industries while harming the Southern economy.",US sectional conflict history,1.0
+tariff_of_abominations_1828,nullification_crisis,DIRECTLY_CAUSED,"South Carolina's opposition to the tariff led directly to the Nullification Crisis.",major US tariff acts 20th century,1.0
+nullification_crisis,compromise_tariff_of_1833,RESOLVED_BY,"The Compromise Tariff of 1833 was passed to resolve the Nullification Crisis.",major US tariff acts 20th century,1.0
+compromise_tariff_of_1833,sectional_conflict,TEMPORARILY_DEFUSED,"The compromise tariff temporarily defused the sectional conflict over trade policy.",US sectional conflict history,0.95
+morrill_tariff_1861,protectionism,MARKED_PIVOT_TO,"The Morrill Tariff marked a decisive pivot back to protectionism to fund the Civil War and protect domestic industry.",history of US protectionism,1.0
+underwood_tariff_1913,free_trade,MARKED_RETURN_TO,"The Underwood Tariff, with its significant rate reductions, marked a return to a policy of freer trade.",history of US free trade agreements,1.0
+underwood_tariff_1913,us_federal_revenue,INTRODUCED_ALTERNATIVE_TO,"By institutionalizing the federal income tax, the Underwood Tariff created a major alternative to tariffs for U.S. federal revenue.",history of US federal revenue,1.0
+fordney-mccumber_tariff_1922,protectionism,SIGNALED_RETURN_TO,"After WWI, the Fordney-McCumber Tariff signaled a return to economic nationalism and protectionism.",major US tariff acts 20th century,1.0
+fordney-mccumber_tariff_1922,smoot-hawley_tariff_act_1930,PRECEDED,"The protectionist stance of the Fordney-McCumber act preceded the even more extreme Smoot-Hawley Tariff.",major US tariff acts 20th century,1.0
+smoot-hawley_tariff_act_1930,great_depression,WORSENED,"The Smoot-Hawley Tariff provoked international retaliation, collapsing global trade and significantly worsening the Great Depression.",major US tariff acts 20th century,1.0
+smoot-hawley_tariff_act_1930,protectionism,REPRESENTED_PEAK_OF,"The Smoot-Hawley Tariff is considered the peak of U.S. protectionism.",history of US protectionism,1.0
+great_depression,reciprocal_trade_agreements_act_1934,PROMPTED,"The failure of Smoot-Hawley during the Great Depression prompted the passage of the RTAA to reverse its effects.",history of GATT trade rounds,1.0
+reciprocal_trade_agreements_act_1934,free_trade,MARKED_PIVOT_TO,"The RTAA marked a major pivot in U.S. policy away from legislative tariff-setting and towards executive-led negotiations for freer trade.",history of US free trade agreements,1.0
+reciprocal_trade_agreements_act_1934,gatt,PROVIDED_FRAMEWORK_FOR,"The bilateral approach of the RTAA provided the legislative and ideological framework for the creation of the multilateral GATT system.",history of GATT trade rounds,1.0
+gatt,trade_liberalization,ADVANCED_IDEOLOGY_OF,"The entire purpose of the GATT framework was to advance the ideology of global trade liberalization.",history of GATT trade rounds,1.0
+gatt,wto,SUCCEEDED_BY,"The World Trade Organization (WTO) was created by the Uruguay Round of GATT to succeed it as a more formal institution.",creation of World Trade Organization,1.0
+uruguay_round,wto,CREATED,"The Uruguay Round of GATT negotiations concluded with an agreement to create the World Trade Organization.",history of GATT trade rounds,1.0
+wto,trade_liberalization,INSTITUTIONALIZED,"The WTO institutionalized the principles of trade liberalization that had been pursued under the GATT framework.",history of GATT trade rounds,1.0
+wto,nafta,OPERATED_ALONGSIDE,"The regional NAFTA trade bloc operated alongside the global WTO framework.",major free trade agreements US,1.0
+us-china_trade_war,protectionism,MARKED_RESURGENCE_OF,"The U.S.-China Trade War marked a significant resurgence of protectionist policies after decades of trade liberalization.",US China trade war timeline tariffs,1.0
+section_301_tariffs,us-china_trade_war,WAS_PRIMARY_TOOL_OF,"Section 301 tariffs were the primary legal tool used by the U.S. to impose duties on Chinese goods during the trade war.",US China trade war timeline tariffs,1.0
+section_301_tariffs,wto,CHALLENGED_PRINCIPLES_OF,"The unilateral nature of the Section 301 tariffs was seen by many as a challenge to the multilateral principles of the WTO.",US China trade war timeline tariffs,0.95

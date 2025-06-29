@@ -1,0 +1,12 @@
+node_id,node_type,description,layer
+"Latin American Debt Crisis (1982)","MarketCrisis","Cascade of sovereign defaults across Latin America following decades of borrowing and rising U.S. interest rates.","Historical Layer"
+"Petrodollar Recycling Boom (1970s)","MarketCrisis","Oil-exporting countries deposited surplus USD into global banks, which then lent aggressively to emerging markets.","Market Condition Layer"
+"U.S. Interest Rate Shock (1979–1982)","MarketCrisis","Volcker-era hikes sharply increased debt servicing costs for floating-rate EM debt.","Market Condition Layer"
+"Mexico Default (1982)","MarketCrisis","Mexico’s inability to service debt triggered a region-wide credit crisis.","Historical Layer"
+"IMF Structural Adjustment Programs (SAPs)","MarketCrisis","Austerity-driven reform packages imposed by the IMF in exchange for bailout support.","Systemic Reform Layer"
+"Lost Decade (1980s)","MarketCrisis","Period of low growth, high inflation, and political instability across indebted Latin America.","Feedback Layer"
+"Brady Plan (1989)","MarketCrisis","Debt restructuring strategy involving securitization and new instruments to resolve defaulted loans.","Systemic Reform Layer"
+"Historical Layer","Layer",,
+"Market Condition Layer","Layer",,
+"Systemic Reform Layer","Layer",,
+"Feedback Layer","Layer",,

@@ -1,0 +1,29 @@
+source,target,relationship,source_sentence,source_doc,start_date,end_date,confidence
+tail_risk,market_risk,AMPLIFIES,"Extreme left-tail events are an amplified manifestation of aggregate market risk, producing losses far beyond normal volatility ranges.","Risk-Taxonomy Synthesis 2025",,,1.0
+funding_liquidity_risk,market_risk,TRIGGERS,"Funding squeezes force leveraged investors to liquidate positions, turning micro liquidity stress into broad market draw-downs.","Risk-Taxonomy Synthesis 2025",,,0.95
+liquidity_risk,market_risk,EXACERBATES,"When market depth vanishes, even modest order flow magnifies price swings—deepening overall market risk.","Risk-Taxonomy Synthesis 2025",,,0.92
+interest_rate_risk,market_risk,CONTRIBUTES_TO,"Large parallel shifts in the yield curve ripple through equity, credit and FX markets, contributing to systemic market risk.","Risk-Taxonomy Synthesis 2025",,,0.92
+inflation_risk,interest_rate_risk,TRIGGERS,"Persistent inflation pressures central banks to tighten policy, triggering higher market yields and repricing fixed-income assets.","Risk-Taxonomy Synthesis 2025",,,0.95
+geopolitical_risk,exchange_rate_risk,TRIGGERS,"International conflicts and sanctions alter capital flows and safe-haven demand, triggering sharp exchange-rate moves.","Risk-Taxonomy Synthesis 2025",,,0.9
+exchange_rate_risk,credit_risk,AMPLIFIES,"Currency depreciation raises the local-currency burden of foreign-currency debt, amplifying default risk for borrowers.","Risk-Taxonomy Synthesis 2025",,,0.9
+credit_risk,leverage_risk,AMPLIFIES,"Increased borrower default risk erodes collateral values, amplifying leverage risk in funded positions.","Risk-Taxonomy Synthesis 2025",,,0.88
+leverage_risk,tail_risk,AMPLIFIES,"High leverage turns ordinary price moves into tail-risk losses when margin calls cascade.","Risk-Taxonomy Synthesis 2025",,,0.94
+basis_risk,interest_rate_risk,REMAINS_AFTER_HEDGE,"A hedge using treasury futures leaves residual basis risk because futures and cash yields move imperfectly together.","Risk-Taxonomy Synthesis 2025",,,0.9
+basis_risk,model_risk,EXPOSES,"Mis-specifying hedge ratios in pricing models exposes portfolios to undetected basis risk.","Risk-Taxonomy Synthesis 2025",,,0.85
+model_risk,tail_risk,TRIGGERS,"Faulty valuation or VaR models understate extreme scenarios, triggering unexpected tail losses during stress events.","Risk-Taxonomy Synthesis 2025",,,0.9
+information_risk,model_risk,AMPLIFIES,"Erroneous or delayed input data amplifies model risk by propagating inaccuracies through automated decisions.","Risk-Taxonomy Synthesis 2025",,,0.88
+cybersecurity_risk,operational_risk,TRIGGERS,"Successful cyber-attacks disrupt critical systems, directly triggering operational risk losses.","Risk-Taxonomy Synthesis 2025",,,0.93
+operational_risk,legal_risk,TRIGGERS,"Process failures often result in litigation or regulatory fines, triggering legal risk exposures.","Risk-Taxonomy Synthesis 2025",,,0.85
+legal_risk,regulatory_risk,OVERLAPS_WITH,"Court rulings frequently reinterpret regulations, creating an overlapping zone between legal and regulatory risks.","Risk-Taxonomy Synthesis 2025",,,0.8
+regulatory_risk,business_risk,INFLUENCES,"New compliance rules alter cost structures and strategy, influencing core business risk dynamics.","Risk-Taxonomy Synthesis 2025",,,0.9
+technology_risk,business_risk,DISRUPTS,"Rapid technological change can render products obsolete, directly disrupting business risk profiles.","Risk-Taxonomy Synthesis 2025",,,0.9
+concentration_risk,tail_risk,MAGNIFIES,"Heavy exposure to a single issuer or sector magnifies tail losses when that position collapses.","Risk-Taxonomy Synthesis 2025",,,0.9
+funding_liquidity_risk,liquidity_risk,EXACERBATES,"Funding dry-ups force asset sales into thin markets, exacerbating market-liquidity shortfalls.","Risk-Taxonomy Synthesis 2025",,,0.92
+settlement_risk,counterparty_risk,RELATED_TO,"Settlement failure risk is a manifestation of the broader counterparty default problem in post-trade processes.","Risk-Taxonomy Synthesis 2025",,,0.9
+counterparty_risk,funding_liquidity_risk,AMPLIFIES,"A major dealer’s default tightens repo and derivatives funding, amplifying system-wide funding-liquidity risk.","Risk-Taxonomy Synthesis 2025",,,0.9
+climate_physical_risk,credit_risk,TRIGGERS,"Physical climate damage weakens borrower cash-flows and collateral, triggering higher credit risk.","Risk-Taxonomy Synthesis 2025",,,0.88
+climate_transition_risk,regulatory_risk,EMANATES_FROM,"Transition risk arises largely from new carbon policies and regulations, linking it to regulatory risk.","Risk-Taxonomy Synthesis 2025",,,0.88
+esg_risk,regulatory_risk,INCREASES,"Stricter ESG disclosure mandates increase compliance burdens, heightening regulatory risk for lagging firms.","Risk-Taxonomy Synthesis 2025",,,0.9
+sanctions_risk,geopolitical_risk,EMERGES_FROM,"Sanctions regimes are policy tools that emerge directly from geopolitical tensions.","Risk-Taxonomy Synthesis 2025",,,0.88
+political_risk,geopolitical_risk,SUBSET_OF,"Country-level political risk is a subset of broader geopolitical tensions impacting multiple nations.","Risk-Taxonomy Synthesis 2025",,,0.87
+basis_risk,hedged_position,HEDGING_IMPERFECTION,"Basis movements create imperfect hedges, leaving residual exposure in hedged positions.",Risk-Taxonomy Synthesis 2025,,,0.8

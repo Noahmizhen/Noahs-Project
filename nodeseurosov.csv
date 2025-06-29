@@ -1,0 +1,17 @@
+node_id,node_type,description,layer
+"European Sovereign Debt Crisis (2010)","MarketCrisis","Crisis triggered by high government debt levels and structural weaknesses in Eurozone economies, leading to bailouts and austerity measures.","Historical Layer"
+"Greek Debt Crisis","MarketCrisis","Greek government debt reached unsustainable levels, triggering EU and IMF bailouts.","Market Condition Layer"
+"Eurozone Structural Flaws","MarketCrisis","Lack of fiscal integration in the Eurozone exposed systemic weaknesses.","Systemic Reform Layer"
+"IMF-EU Bailouts","MarketCrisis","Massive financial assistance packages to stabilize Greece, Ireland, Portugal, and others.","Systemic Reform Layer"
+"Austerity Measures","MarketCrisis","Government spending cuts and tax increases to restore fiscal discipline.","Cognitive-Agentic Layer"
+"Bond Yield Spikes","MarketCrisis","Rising sovereign bond yields indicated loss of investor confidence.","Market Condition Layer"
+"ECB Intervention","MarketCrisis","European Central Bank interventions including Long-Term Refinancing Operations (LTRO).","Systemic Reform Layer"
+"Contagion Risk in Europe","MarketCrisis","Fears that crisis would spread to other EU economies such as Spain and Italy.","Predictive Layer"
+"Social Unrest","MarketCrisis","Public protests against austerity and economic stagnation.","Cognitive-Agentic Layer"
+"Brexit Foundations","MarketCrisis","Loss of confidence in EU integration contributed to the rise of Euro-skepticism.","Feedback Layer"
+"Historical Layer","Layer",,
+"Market Condition Layer","Layer",,
+"Systemic Reform Layer","Layer",,
+"Cognitive-Agentic Layer","Layer",,
+"Predictive Layer","Layer",,
+"Feedback Layer","Layer",,

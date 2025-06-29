@@ -1,0 +1,18 @@
+id,name,description,layer,entity_type
+tariff_of_abominations_1828,"Tariff of Abominations (1828)","Record-high duties provoking the Nullification Crisis.","Historical Layer",Legislation
+compromise_tariff_of_1833,"Compromise Tariff of 1833","Gradual duty reductions that defused the Nullification standoff.","Systemic Reform Layer",Legislation
+walker_tariff_1846,"Walker Tariff (1846)","Revenue-focused low-duty tariff that slashed average rates to ~25 %.","Systemic Reform Layer",Legislation
+morrill_tariff_1861,"Morrill Tariff (1861)","Sharp duty hikes to fund the Civil War; pivot to protectionism.","Historical Layer",Legislation
+mckinley_tariff_1890,"McKinley Tariff (1890)","Raised average duties to near 50 %; protective high-water mark.","Historical Layer",Legislation
+wilson-gorman_tariff_1894,"Wilson–Gorman Tariff (1894)","Cut McKinley rates but added first peacetime income-tax clause.","Systemic Reform Layer",Legislation
+dingley_tariff_1897,"Dingley Tariff (1897)","Re-raised rates to ~52 %; longest-lived 19th-century tariff law.","Historical Layer",Legislation
+payne-aldrich_tariff_act_1909,"Payne–Aldrich Tariff Act (1909)","Minor rate trims; disappointed progressive free-traders.","Systemic Reform Layer",Legislation
+underwood_tariff_revenue_act_1913,"Underwood Tariff / Revenue Act (1913)","Restored low duties (~26 %) and introduced permanent income tax.","Systemic Reform Layer",Legislation
+tariff_act_of_1789,"Tariff Act of 1789","First U.S. federal revenue tariff; cornerstone of early fiscal policy.","Systemic Reform Layer",Legislation
+protectionism,Protectionism,"An economic policy of restricting imports from other countries through methods such as tariffs on imported goods, import quotas, and a variety of other government regulations.",Cognitive-Agentic Layer,Economic Ideology
+free_trade,Free Trade,"An economic policy where governments do not restrict imports from, or exports to, other countries.",Cognitive-Agentic Layer,Economic Ideology
+us_federal_revenue,U.S. Federal Revenue,"The income of the U.S. federal government, historically dominated by tariff duties before the income tax.",Market Condition Layer,Economic Indicator
+sectional_conflict,Sectional Conflict (North vs. South),"The growing social, economic, and political divide between the industrial North and the agrarian South in the 19th century.",Historical Layer,Historical Theme
+us_industrialization,U.S. Industrialization,"The process of the United States' economy shifting from being primarily based on agriculture to being based on manufacturing and industry.",Historical Layer,Economic Trend
+northern_industrialists,Northern Industrialists,"The business owners and financiers of the Northern U.S. who generally favored high tariffs to protect their industries from foreign competition.",Institution Layer,Actor Group
+southern_agrarian_interests,Southern Agrarian Interests,"The landowners and farmers of the Southern U.S. who generally favored low tariffs and free trade to reduce the cost of imported goods and encourage exports of raw materials.",Institution Layer,Actor Group

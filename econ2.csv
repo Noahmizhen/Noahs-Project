@@ -1,0 +1,27 @@
+node_id,node_type,description
+"Kalecki Profit Equation","EconomicTheory","Macroeconomic identity that explains profits as a function of investment, government deficit, and household savings."
+"Cantillon Effect","EconomicTheory","Monetary expansion benefits early recipients disproportionately, fueling inequality and asset inflation."
+"Minsky Instability Hypothesis","EconomicTheory","Periods of financial stability encourage risk, ultimately resulting in instability and credit collapse."
+"Austrian Business Cycle Theory","EconomicTheory","Low interest rates mislead capital allocation, resulting in malinvestment and eventual collapse."
+"Triffin Dilemma","EconomicTheory","A reserve currency country must run deficits to supply liquidity, which undermines domestic policy sustainability."
+"ReasoningPath_KALECKI_001","ReasoningPath","Investment boom → profit expansion → fiscal crowd-in → inflation feedback loop"
+"ReasoningPath_MINSKY_002","ReasoningPath","Stability breeds leverage → credit overreach → fragility unwinds via liquidation"
+"ReasoningPath_TRIFFIN_003","ReasoningPath","Global USD dependency → current account strain → FX de-dollarization → yield volatility"
+"ReasoningPath_AUSTRIAN_004","ReasoningPath","Artificial rate suppression → resource misallocation → bust cycle → asset revaluation"
+"macro profit logic","Tag",
+"fiscal mechanics","Tag",
+"asset inflation","Tag",
+"inequality expansion","Tag",
+"fragility escalation","Tag",
+"credit cycle","Tag",
+"credit distortion","Tag",
+"malinvestment","Tag",
+"FX reserve paradox","Tag",
+"sovereign fragility","Tag",
+"ReasoningPath_017","ReasoningPath",
+"ReasoningPath_028","ReasoningPath",
+"ReasoningPath_019","ReasoningPath",
+"ReasoningPath_030","ReasoningPath",
+"ReasoningPath_027_v2","ReasoningPath",
+"ReasoningPath_021","ReasoningPath",
+"ReasoningPath_032","ReasoningPath",

@@ -1,0 +1,58 @@
+name,description,layer
+Loss Aversion Bias,"Investors tend to hold losers and sell winners, distorting portfolio reaction timing.",Behavioral Layer
+Recency Bias,Overemphasis on recent data leads to trend chasing and risk misestimation.,Behavioral Layer
+Confirmation Bias in Narrative Investing,"Investors seek information confirming their belief, fueling bubbles.",Behavioral Layer
+Enantiodromia,Extreme psychological states lead to violent reversals — key in market cycles.,Behavioral Layer
+Speculative Euphoria,"Mass participation driven by emotion, media, or groupthink — often precedes collapses.",Behavioral Layer
+Liquidity Mirage,Illusion of liquidity in good times hides true fragility until volatility returns.,Behavioral Layer
+Volatility Fatigue,"After many shocks, investors retreat from risk — leads to mispricing.",Behavioral Layer
+Social Contagion,Meme-based and online social amplification can override fundamentals.,Behavioral Layer
+VIX Spike > 20,Signals equity stress and initiates fear regime in market.,Volatility Layer
+SKEW > 135,Indicates heavy tail-risk hedging and crash insurance buying.,Volatility Layer
+Short Gamma Exposure,Dealer gamma imbalance causes forced directional flow.,Volatility Layer
+0DTE Option Volume Surge,Intraday volatility feedback caused by 0DTE flows.,Volatility Layer
+Volatility Contagion,Vol spread from equity → credit → FX or commodities.,Volatility Layer
+Panic of 1873,"Financial crisis triggered by the collapse of Jay Cooke & Co., marking the start of a prolonged economic downturn.",Historical Layer
+Long Depression (1873–1896),"A global economic depression marked by deflation, stagnation, falling prices, and widespread unemployment, especially in Europe and the U.S.",Historical Layer
+Jay Cooke & Co. Collapse,"Investment bank failure after overexposure to railroad bonds, triggering a chain reaction in credit markets.",Market Condition Layer
+Overbuilt Railroad Bubble (1870s),Excessive speculative investment in U.S. railroads fueled by cheap credit and westward expansion.,Market Condition Layer
+Bimetallism Debate,"Monetary policy tension over gold vs. silver standard, affecting money supply and investor confidence.",Cognitive-Agentic Layer
+Coinage Act of 1873,"U.S. law that effectively demonetized silver, reducing liquidity and worsening deflation. Known by critics as the 'Crime of 1873'.",Systemic Reform Layer
+Global Deflation Spiral,Widespread price collapse across Europe and the Americas due to contraction of credit and money supply.,Feedback Layer
+Rise of Protectionism (1880s),Many countries adopted tariffs and trade barriers in response to prolonged deflation and job loss.,Predictive Layer
+OPEC Oil Embargo (1973),"Arab-led oil embargo against U.S. and allies, triggering global energy crisis.",Market Condition Layer
+Petrodollar Agreement (1974),"U.S.-Saudi pact requiring oil sales to be priced in U.S. dollars, reinforcing USD dominance.",Systemic Reform Layer
+U.S. Dollar Reserve Reinforcement,Outcome of petrodollar system where global demand for dollars surged due to energy trade.,Feedback Layer
+Emergence of Sovereign Wealth Funds,Oil-exporting nations invested surpluses into U.S. and global markets.,Simulation Layer
+Oil Shock Inflation (1970s),Massive price increases and stagflation following oil supply disruptions.,Market Condition Layer
+Energy Geopolitics Era,Decades of global policy shaped around oil security and petrodollar system.,Predictive Layer
+ESG Capital Reallocation Era,"Shift in global capital toward ESG-screened assets in response to climate, reputational, and regulatory pressures.",Predictive Layer
+Paris Agreement (2015),International treaty accelerating climate accountability and net-zero investment frameworks.,Systemic Reform Layer
+EU Green Taxonomy (2021),EU classification system defining what constitutes environmentally sustainable activities for capital markets.,Systemic Reform Layer
+Carbon Pricing Expansion,Proliferation of emissions trading systems and carbon taxes altering asset-level risk/reward.,Market Condition Layer
+Stranded Asset Risk Awareness,"Investor realization that fossil-based assets may lose value due to regulatory, technological, or demand changes.",Cognitive-Agentic Layer
+Green Bond Market Surge,"Rapid issuance of bonds financing renewable infrastructure, low-emission tech, and sustainable assets.",Market Condition Layer
+ESG Ratings Divergence,Inconsistencies and opacity in ESG rating systems influencing capital flows and policy decisions.,Feedback Layer
+COVID Economic Shock (2020),"Global economic crisis triggered by the COVID-19 pandemic, causing supply-chain disruptions, lockdowns, and demand collapse.",Historical Layer
+Global Lockdowns,Nationwide quarantines and travel bans imposed to contain the virus.,Market Condition Layer
+Supply Chain Disruptions,Delays and shortages caused by halted manufacturing and transport.,Market Condition Layer
+Unemployment Spike (2020),Mass layoffs and furloughs resulting from business shutdowns.,Market Condition Layer
+Monetary Easing Blitz,Central banks slashed rates and launched liquidity programs.,Systemic Reform Layer
+Fiscal Stimulus Packages,Massive government spending to support households and businesses.,Systemic Reform Layer
+Remote Work Acceleration,Rapid shift to digital-first work environments.,Cognitive-Agentic Layer
+Stock Market Crash (March 2020),Rapid global equity sell-off due to pandemic uncertainty.,Historical Layer
+Recovery K-Shape,Divergent rebound where tech and capital markets surged while labor recovery lagged.,Feedback Layer
+Vaccine Development Race,Global biotech effort to develop effective COVID-19 vaccines.,Simulation Layer
+Oil Price Crash (April 2020),Historic drop in oil demand drove WTI futures below zero for the first time.,Historical Layer
+Federal Reserve QE Infinity,Unlimited quantitative-easing program to stabilize credit and MBS markets.,Systemic Reform Layer
+ECB PEPP,ECB's Pandemic Emergency Purchase Programme worth €1.85 trillion.,Systemic Reform Layer
+Paycheck Protection Program (PPP),U.S. forgivable loans aimed at keeping small-business payrolls intact.,Systemic Reform Layer
+E-Commerce Surge,"Consumer spending pivoted sharply online, boosting digital retail revenues.",Cognitive-Agentic Layer
+Global Chip Shortage (2020-21),Semiconductor supply crunch disrupting autos and electronics production.,Market Condition Layer
+Inflation Spike (2021),Post-pandemic demand + supply bottlenecks pushed CPI to multi-decade highs.,Feedback Layer
+Labor Shortage Trend,Record job openings and quits as economies reopened.,Market Condition Layer
+Telehealth Adoption Boom,Regulatory waivers and consumer uptake drove telemedicine mainstream.,Cognitive-Agentic Layer
+mRNA Vaccine Breakthrough,Successful deployment of Pfizer-BioNTech & Moderna vaccines in record time.,Simulation Layer
+Yield Curve Inversion,Spread between 10Y and 2Y Treasuries flips negative.,Macro Layer
+US Nominal GDP,US national GDP as reported by IMF.,Macro Layer
+BTC Exchange Flow,Net flows of bitcoin in/out of exchanges (proxy for sentiment/hedging).,Digital Asset Layer
