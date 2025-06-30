@@ -1,0 +1,190 @@
+raw_text = """AED,United Arab Emirates Dirham,د.إ,United Arab Emirates
+AFN,Afghan Afghani,؋,Afghanistan
+ALL,Albanian Lek,L,Albania
+AMD,Armenian Dram,֏,Armenia
+ANG,Netherlands Antillean Guilder,ƒ,Curacao; Sint Maarten
+AOA,Angolan Kwanza,Kz,Angola
+ARS,Argentine Peso,$,Argentina
+AUD,Australian Dollar,$,Australia; Christmas Island; Cocos Islands; Heard Island; Kiribati; Nauru; Norfolk Island; Tuvalu
+AWG,Aruban Florin,ƒ,Aruba
+AZN,Azerbaijani Manat,₼,Azerbaijan
+BAM,Bosnia-Herzegovina Convertible Mark,KM,Bosnia and Herzegovina
+BBD,Barbadian Dollar,$,Barbados
+BDT,Bangladeshi Taka,৳,Bangladesh
+BGN,Bulgarian Lev,лв,Bulgaria
+BHD,Bahraini Dinar,.د.ب,Bahrain
+BIF,Burundian Franc,FBu,Burundi
+BMD,Bermudian Dollar,$,Bermuda
+BND,Brunei Dollar,$,Brunei; Singapore
+BOB,Bolivian Boliviano,Bs,Bolivia
+BRL,Brazilian Real,R$,Brazil
+BSD,Bahamian Dollar,$,Bahamas
+BTN,Bhutanese Ngultrum,Nu.,Bhutan
+BWP,Botswana Pula,P,Botswana
+BYN,Belarusian Ruble,Br,Belarus
+BZD,Belize Dollar,$,Belize
+CAD,Canadian Dollar,$,Canada
+CDF,Congolese Franc,FC,Congo (Kinshasa)
+CHF,Swiss Franc,Fr,Switzerland; Liechtenstein
+CLP,Chilean Peso,$,Chile
+CNY,Chinese Yuan,¥,China
+COP,Colombian Peso,$,Colombia
+CRC,Costa Rican Colon,₡,Costa Rica
+CUP,Cuban Peso,$,Cuba
+CVE,Cape Verdean Escudo,Esc,Cap Verde
+CZK,Czech Koruna,Kč,Czech Republic
+DJF,Djiboutian Franc,Fdj,Djibouti
+DKK,Danish Krone,kr,Denmark; Faroe Islands; Greenland
+DOP,Dominican Peso,RD$,Dominican Republic
+DZD,Algerian Dinar,دج,Algeria
+EGP,Egyptian Pound,£,Egypt
+ERN,Eritrean Nakfa,Nfk,Eritrea
+ETB,Ethiopian Birr,Br,Ethiopia
+EUR,Euro,€,Eurozone (list of 20+ countries)
+FJD,Fijian Dollar,$,Fiji
+FKP,Falkland Islands Pound,£,Falkland Islands
+FOK,Faroese Króna,kr,Faroe Islands
+GBP,British Pound Sterling,£,United Kingdom; Isle of Man; Jersey; Guernsey
+GEL,Georgian Lari,₾,Georgia
+GGP,Guernsey Pound,£,Guernsey
+GHS,Ghanaian Cedi,₵,Ghana
+GIP,Gibraltar Pound,£,Gibraltar
+GMD,Gambian Dalasi,D,Gambia
+GNF,Guinean Franc,FG,Guinea
+GTQ,Guatemalan Quetzal,Q,Guatemala
+GYD,Guyanese Dollar,$,Guyana
+HKD,Hong Kong Dollar,$,Hong Kong
+HNL,Honduran Lempira,L,Honduras
+HRK,Croatian Kuna,kn,Croatia (phasing out for EUR)
+HTG,Haitian Gourde,G,Haiti
+HUF,Hungarian Forint,Ft,Hungary
+IDR,Indonesian Rupiah,Rp,Indonesia
+ILS,Israeli New Shekel,₪,Israel; Palestinian territories
+IMP,Isle of Man Pound,£,Isle of Man
+INR,Indian Rupee,₹,India
+IQD,Iraqi Dinar,ع.د,Iraq
+IRR,Iranian Rial,﷼,Iran
+ISK,Icelandic Króna,kr,Iceland
+JMD,Jamaican Dollar,$,Jamaica
+JOD,Jordanian Dinar,د.ا,Jordan
+JPY,Japanese Yen,¥,Japan
+KES,Kenyan Shilling,Sh,Kenya
+KGS,Kyrgyzstani Som,с,Kyrgyzstan
+KHR,Cambodian Riel,៛,Cambodia
+KID,Kiribati Dollar,$,Kiribati
+KMF,Comorian Franc,CF,Comoros
+KRW,South Korean Won,₩,South Korea
+KWD,Kuwaiti Dinar,د.ك,Kuwait
+KYD,Cayman Islands Dollar,$,Cayman Islands
+KZT,Kazakhstani Tenge,₸,Kazakhstan
+LAK,Lao Kip,₭,Laos
+LBP,Lebanese Pound,ل.ل,Lebanon
+LKR,Sri Lankan Rupee,₨,Sri Lanka
+LRD,Liberian Dollar,$,Liberia
+LSL,Lesotho Loti,L,Lesotho
+LYD,Libyan Dinar,ل.د,Libya
+MAD,Moroccan Dirham,د.م.,Morocco; Western Sahara
+MDL,Moldovan Leu,lei,Moldova
+MGA,Malagasy Ariary,Ar,Madagascar
+MKD,Macedonian Denar,ден,North Macedonia
+MMK,Myanmar Kyat,K,Myanmar (Burma)
+MNT,Mongolian Tögrög,₮,Mongolia
+MOP,Macanese Pataca,P,Macao
+MRU,Mauritanian Ouguiya,UM,Mauritania
+MUR,Mauritian Rupee,₨,Mauritius
+MVR,Maldivian Rufiyaa,ރ.,Maldives
+MWK,Malawian Kwacha,MK,Malawi
+MXN,Mexican Peso,$,Mexico
+MYR,Malaysian Ringgit,RM,Malaysia
+MZN,Mozambican Metical,MT,Mozambique
+NAD,Namibian Dollar,$,Namibia
+NGN,Nigerian Naira,₦,Nigeria
+NIO,Nicaraguan Córdoba,C$,Nicaragua
+NOK,Norwegian Krone,kr,Norway; Svalbard; Bouvet Island
+NPR,Nepalese Rupee,₨,Nepal
+NZD,New Zealand Dollar,$,New Zealand; Cook Islands; Niue; Pitcairn; Tokelau
+OMR,Omani Rial,ر.ع.,Oman
+PAB,Panamanian Balboa,B/.,Panama
+PEN,Peruvian Sol,S/,Peru
+PGK,Papua New Guinean Kina,K,PNG
+PHP,Philippine Peso,₱,Philippines
+PKR,Pakistani Rupee,₨,Pakistan
+PLN,Polish Złoty,zł,Poland
+PYG,Paraguayan Guaraní,₲,Paraguay
+QAR,Qatari Riyal,ر.ق,Qatar
+RON,Romanian Leu,lei,Romania
+RSD,Serbian Dinar,дин.,Serbia
+RUB,Russian Ruble,₽,Russia
+RWF,Rwandan Franc,FRw,Rwanda
+SAR,Saudi Riyal,ر.س,Saudi Arabia
+SBD,Solomon Islands Dollar,$,Solomon Islands
+SCR,Seychellois Rupee,₨,Seychelles
+SDG,Sudanese Pound,ج.س.,Sudan
+SEK,Swedish Krona,kr,Sweden
+SGD,Singapore Dollar,$,Singapore; Brunei
+SHP,Saint Helena Pound,£,Saint Helena; Ascension; Tristan da Cunha
+SLL,Sierra Leonean Leone,Le,Sierra Leone
+SOS,Somali Shilling,Sh,Somalia
+SRD,Surinamese Dollar,$,Suriname
+SSP,South Sudanese Pound,£,South Sudan
+STN,São Tomé and Príncipe Dobra,Db,São Tomé and Príncipe
+SYP,Syrian Pound,£,Syria
+SZL,Eswatini Lilangeni,L,Eswatini (Swaziland)
+THB,Thai Baht,฿,Thailand
+TJS,Tajikistani Somoni,ЅМ,Tajikistan
+TMT,Turkmenistan Manat,m,Turkmenistan
+TND,Tunisian Dinar,د.ت,Tunisia
+TOP,Tongan Paʻanga,T$,Tonga
+TRY,Turkish Lira,₺,Turkey; Northern Cyprus
+TTD,Trinidad and Tobago Dollar,$,Trinidad and Tobago
+TVD,Tuvaluan Dollar,$,Tuvalu
+TWD,New Taiwan Dollar,NT$,Taiwan
+TZS,Tanzanian Shilling,Sh,Tanzania
+UAH,Ukrainian Hryvnia,₴,Ukraine
+UGX,Ugandan Shilling,Sh,Uganda
+USD,United States Dollar,$,United States; Ecuador; El Salvador; East Timor; others
+UYU,Uruguayan Peso,$,Uruguay
+UZS,Uzbekistan Som,soʻm,Uzbekistan
+VES,Venezuelan Bolívar,Bs.,Venezuela
+VND,Vietnamese Đồng,₫,Vietnam
+VUV,Vanuatu Vatu,Vt,Vanuatu
+WST,Samoan Tala,T,Samoa
+XAF,Central African CFA Franc,Fr,Central African states (6 countries)
+XCD,East Caribbean Dollar,$,Eastern Caribbean (8 countries)
+XOF,West African CFA Franc,Fr,West African states (8 countries)
+XPF,CFP Franc,Fr,French Pacific territories
+YER,Yemeni Rial,﷼,Yemen
+ZAR,South African Rand,R,South Africa; Lesotho; Namibia; Eswatini
+ZMW,Zambian Kwacha,ZK,Zambia
+ZWL,Zimbabwean Dollar,Z$,Zimbabwe
+"""
+
+lines = [l.strip() for l in raw_text.strip().splitlines() if l.strip()]
+records = []
+for line in lines:
+    # split on first three commas
+    parts = line.split(",", 3)
+    if len(parts) != 4:
+        print("Bad line:", line)
+    else:
+        code, cname, symbol, countries = parts
+        records.append({"code": code.strip(), "name": cname.strip(), "symbol": symbol.strip(), "countries": countries.strip()})
+
+df_currency = pd.DataFrame(records)[["code","name","symbol"]].drop_duplicates("code")
+# Build mapping rows
+map_rows=[]
+for rec in records:
+    code=rec["code"]
+    for country in [c.strip() for c in rec["countries"].split(";")]:
+        if country:
+            map_rows.append({"code":code,"country":country})
+df_map = pd.DataFrame(map_rows)
+
+# Save CSVs
+path_currency = "/mnt/data/currency_master_clean.csv"
+path_map = "/mnt/data/currency_country_map.csv"
+df_currency.to_csv(path_currency,index=False)
+df_map.to_csv(path_map,index=False)
+
+tools.display_dataframe_to_user("Currency Master (clean)", df_currency.head())
+tools.display_dataframe_to_user("Currency-Country Map (sample)", df_map.head(20))
